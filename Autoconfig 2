@@ -12,14 +12,18 @@ bind "kp_multiply" "buy ssg08;"
 bind "kp_slash" "buy xm1014;"
 bind "kp_del" " buy vesthelm; buy vest;"
 bind "kp_ins" " buy vest;"
-bind "w" "+forward; r_cleardecals;"
-bind "a" "+moveleft; r_cleardecals;"
-bind "s" "+back; r_cleardecals;"
-bind "d" "+moveright; r_cleardecals;
-bind n "toggle cl_crosshairsize 1000 0.5"
+bind "w" "+forward; r_cleardecals"
+bind "a" "+moveleft; r_cleardecals"
+bind "s" "+back; r_cleardecals"
+bind "d" "+moveright; r_cleardecals"
+bind n "toggle cl_crosshairsize 1000 5"
 cl_radar_always_centered “0”
 cl_radar_scale “0.3”
 cl_hud_radar_scale “1.15”
 cl_radar_icon_scale_min “1”
 cl_radar_square_with_scoreboard “1”
 alias "+jumpthrow" "+jump;-attack"; alias "-jumpthrow" "-jump"; bind m "+jumpthrow" 
+bind mwheelup +jump;bind mwheeldown +jump;bind space +jump
+
+
+host_writeconfig
