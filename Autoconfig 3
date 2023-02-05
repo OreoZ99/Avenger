@@ -1,0 +1,29 @@
+bind "kp_end" " buy flashbang;"
+bind "kp_downarrow" " buy smokegrenade;"
+bind "kp_pgdn" " buy molotov; buy incgrenade; buy incgrenade; buy molotov;"
+bind "kp_leftarrow" "buy m4a1; buy ak47;"
+bind "kp_5" "buy famas; buy galilar;"
+bind "kp_rightarrow" "buy awp;"
+bind "kp_home" "buy mp9; buy mac10;"
+bind "kp_uparrow" "buy aug; buy sg556;"
+bind "kp_pgup" "buy deagle; buy revolver;"
+bind "kp_minus" " buy hegrenade;"
+bind "kp_multiply" "buy ssg08;"
+bind "kp_slash" "buy xm1014;"
+bind "kp_del" " buy vesthelm; buy vest;"
+bind "kp_ins" " buy vest;"
+bind "w" "+forward; r_cleardecals"
+bind "a" "+moveleft; r_cleardecals"
+bind "s" "+back; r_cleardecals"
+bind "d" "+moveright; r_cleardecals"
+bind n "toggle cl_crosshairsize 1000 5"
+cl_radar_always_centered “0”
+cl_radar_scale “0.3”
+cl_hud_radar_scale “1.15”
+cl_radar_icon_scale_min “1”
+cl_radar_square_with_scoreboard “1”
+alias "+jumpthrow" "+jump;-attack"; alias "-jumpthrow" "-jump"; bind m "+jumpthrow" 
+bind mwheelup +jump;bind mwheeldown +jump;bind space +jump
+
+
+host_writeconfig
